@@ -1,0 +1,8 @@
+C:/Users/shw42/source/VSRG/build/CMakeFiles/vsrg.dir
+C:/Users/shw42/source/VSRG/build/CMakeFiles/edit_cache.dir
+C:/Users/shw42/source/VSRG/build/CMakeFiles/rebuild_cache.dir
+C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/SDL3-shared.dir
+C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/SDL3_test.dir
+C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/SDL_uclibc.dir
+C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/edit_cache.dir
+C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/rebuild_cache.dir

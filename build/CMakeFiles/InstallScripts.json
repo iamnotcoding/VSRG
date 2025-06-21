@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/shw42/source/VSRG/build/cmake_install.cmake",
+		"C:/Users/shw42/source/VSRG/build/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
