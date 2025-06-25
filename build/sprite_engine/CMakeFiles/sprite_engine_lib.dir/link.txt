@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\sprite_engine_lib.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\sprite_engine_lib.dir/objects.a @CMakeFiles\sprite_engine_lib.dir\objects1.rsp
+C:\mingw64\bin\g++.exe  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -shared -o ..\Debug\libsprite_engine_lib.dll -Wl,--out-implib,libsprite_engine_lib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\sprite_engine_lib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\sprite_engine_lib.dir\linkLibs.rsp

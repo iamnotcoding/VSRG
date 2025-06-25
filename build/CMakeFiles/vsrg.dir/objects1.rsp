@@ -1,1 +1,1 @@
-CMakeFiles/vsrg.dir/src/main.cpp.obj CMakeFiles/vsrg.dir/src/draw.cpp.obj CMakeFiles/vsrg.dir/src/playfield.cpp.obj CMakeFiles/vsrg.dir/src/map_parser.cpp.obj
+CMakeFiles/vsrg.dir/src/main.cpp.obj CMakeFiles/vsrg.dir/src/game.cpp.obj CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj CMakeFiles/vsrg.dir/src/test.cpp.obj

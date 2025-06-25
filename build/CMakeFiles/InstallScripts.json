@@ -2,7 +2,10 @@
 	"InstallScripts" : 
 	[
 		"C:/Users/shw42/source/VSRG/build/cmake_install.cmake",
-		"C:/Users/shw42/source/VSRG/build/SDL/cmake_install.cmake"
+		"C:/Users/shw42/source/VSRG/build/SDL/cmake_install.cmake",
+		"C:/Users/shw42/source/VSRG/build/SDL_image/cmake_install.cmake",
+		"C:/Users/shw42/source/VSRG/build/json/cmake_install.cmake",
+		"C:/Users/shw42/source/VSRG/build/sprite_engine/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

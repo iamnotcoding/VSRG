@@ -86,72 +86,91 @@ CMakeFiles/vsrg.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vsrg.dir/src/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shw42\source\VSRG\src\main.cpp -o CMakeFiles\vsrg.dir\src\main.cpp.s
 
-CMakeFiles/vsrg.dir/src/draw.cpp.obj: CMakeFiles/vsrg.dir/flags.make
-CMakeFiles/vsrg.dir/src/draw.cpp.obj: CMakeFiles/vsrg.dir/includes_CXX.rsp
-CMakeFiles/vsrg.dir/src/draw.cpp.obj: C:/Users/shw42/source/VSRG/src/draw.cpp
-CMakeFiles/vsrg.dir/src/draw.cpp.obj: CMakeFiles/vsrg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vsrg.dir/src/draw.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vsrg.dir/src/draw.cpp.obj -MF CMakeFiles\vsrg.dir\src\draw.cpp.obj.d -o CMakeFiles\vsrg.dir\src\draw.cpp.obj -c C:\Users\shw42\source\VSRG\src\draw.cpp
+CMakeFiles/vsrg.dir/src/game.cpp.obj: CMakeFiles/vsrg.dir/flags.make
+CMakeFiles/vsrg.dir/src/game.cpp.obj: CMakeFiles/vsrg.dir/includes_CXX.rsp
+CMakeFiles/vsrg.dir/src/game.cpp.obj: C:/Users/shw42/source/VSRG/src/game.cpp
+CMakeFiles/vsrg.dir/src/game.cpp.obj: CMakeFiles/vsrg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vsrg.dir/src/game.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vsrg.dir/src/game.cpp.obj -MF CMakeFiles\vsrg.dir\src\game.cpp.obj.d -o CMakeFiles\vsrg.dir\src\game.cpp.obj -c C:\Users\shw42\source\VSRG\src\game.cpp
 
-CMakeFiles/vsrg.dir/src/draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vsrg.dir/src/draw.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shw42\source\VSRG\src\draw.cpp > CMakeFiles\vsrg.dir\src\draw.cpp.i
+CMakeFiles/vsrg.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vsrg.dir/src/game.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shw42\source\VSRG\src\game.cpp > CMakeFiles\vsrg.dir\src\game.cpp.i
 
-CMakeFiles/vsrg.dir/src/draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vsrg.dir/src/draw.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shw42\source\VSRG\src\draw.cpp -o CMakeFiles\vsrg.dir\src\draw.cpp.s
+CMakeFiles/vsrg.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vsrg.dir/src/game.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shw42\source\VSRG\src\game.cpp -o CMakeFiles\vsrg.dir\src\game.cpp.s
 
-CMakeFiles/vsrg.dir/src/playfield.cpp.obj: CMakeFiles/vsrg.dir/flags.make
-CMakeFiles/vsrg.dir/src/playfield.cpp.obj: CMakeFiles/vsrg.dir/includes_CXX.rsp
-CMakeFiles/vsrg.dir/src/playfield.cpp.obj: C:/Users/shw42/source/VSRG/src/playfield.cpp
-CMakeFiles/vsrg.dir/src/playfield.cpp.obj: CMakeFiles/vsrg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vsrg.dir/src/playfield.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vsrg.dir/src/playfield.cpp.obj -MF CMakeFiles\vsrg.dir\src\playfield.cpp.obj.d -o CMakeFiles\vsrg.dir\src\playfield.cpp.obj -c C:\Users\shw42\source\VSRG\src\playfield.cpp
+CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj: CMakeFiles/vsrg.dir/flags.make
+CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj: CMakeFiles/vsrg.dir/includes_CXX.rsp
+CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj: C:/Users/shw42/source/VSRG/src/game_scripts/map_parser.cpp
+CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj: CMakeFiles/vsrg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj -MF CMakeFiles\vsrg.dir\src\game_scripts\map_parser.cpp.obj.d -o CMakeFiles\vsrg.dir\src\game_scripts\map_parser.cpp.obj -c C:\Users\shw42\source\VSRG\src\game_scripts\map_parser.cpp
 
-CMakeFiles/vsrg.dir/src/playfield.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vsrg.dir/src/playfield.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shw42\source\VSRG\src\playfield.cpp > CMakeFiles\vsrg.dir\src\playfield.cpp.i
+CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shw42\source\VSRG\src\game_scripts\map_parser.cpp > CMakeFiles\vsrg.dir\src\game_scripts\map_parser.cpp.i
 
-CMakeFiles/vsrg.dir/src/playfield.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vsrg.dir/src/playfield.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shw42\source\VSRG\src\playfield.cpp -o CMakeFiles\vsrg.dir\src\playfield.cpp.s
+CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shw42\source\VSRG\src\game_scripts\map_parser.cpp -o CMakeFiles\vsrg.dir\src\game_scripts\map_parser.cpp.s
 
-CMakeFiles/vsrg.dir/src/map_parser.cpp.obj: CMakeFiles/vsrg.dir/flags.make
-CMakeFiles/vsrg.dir/src/map_parser.cpp.obj: CMakeFiles/vsrg.dir/includes_CXX.rsp
-CMakeFiles/vsrg.dir/src/map_parser.cpp.obj: C:/Users/shw42/source/VSRG/src/map_parser.cpp
-CMakeFiles/vsrg.dir/src/map_parser.cpp.obj: CMakeFiles/vsrg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vsrg.dir/src/map_parser.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vsrg.dir/src/map_parser.cpp.obj -MF CMakeFiles\vsrg.dir\src\map_parser.cpp.obj.d -o CMakeFiles\vsrg.dir\src\map_parser.cpp.obj -c C:\Users\shw42\source\VSRG\src\map_parser.cpp
+CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj: CMakeFiles/vsrg.dir/flags.make
+CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj: CMakeFiles/vsrg.dir/includes_CXX.rsp
+CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj: C:/Users/shw42/source/VSRG/src/game_scripts/main_script.cpp
+CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj: CMakeFiles/vsrg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj -MF CMakeFiles\vsrg.dir\src\game_scripts\main_script.cpp.obj.d -o CMakeFiles\vsrg.dir\src\game_scripts\main_script.cpp.obj -c C:\Users\shw42\source\VSRG\src\game_scripts\main_script.cpp
 
-CMakeFiles/vsrg.dir/src/map_parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vsrg.dir/src/map_parser.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shw42\source\VSRG\src\map_parser.cpp > CMakeFiles\vsrg.dir\src\map_parser.cpp.i
+CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shw42\source\VSRG\src\game_scripts\main_script.cpp > CMakeFiles\vsrg.dir\src\game_scripts\main_script.cpp.i
 
-CMakeFiles/vsrg.dir/src/map_parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vsrg.dir/src/map_parser.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shw42\source\VSRG\src\map_parser.cpp -o CMakeFiles\vsrg.dir\src\map_parser.cpp.s
+CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shw42\source\VSRG\src\game_scripts\main_script.cpp -o CMakeFiles\vsrg.dir\src\game_scripts\main_script.cpp.s
+
+CMakeFiles/vsrg.dir/src/test.cpp.obj: CMakeFiles/vsrg.dir/flags.make
+CMakeFiles/vsrg.dir/src/test.cpp.obj: CMakeFiles/vsrg.dir/includes_CXX.rsp
+CMakeFiles/vsrg.dir/src/test.cpp.obj: C:/Users/shw42/source/VSRG/src/test.cpp
+CMakeFiles/vsrg.dir/src/test.cpp.obj: CMakeFiles/vsrg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vsrg.dir/src/test.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vsrg.dir/src/test.cpp.obj -MF CMakeFiles\vsrg.dir\src\test.cpp.obj.d -o CMakeFiles\vsrg.dir\src\test.cpp.obj -c C:\Users\shw42\source\VSRG\src\test.cpp
+
+CMakeFiles/vsrg.dir/src/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vsrg.dir/src/test.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shw42\source\VSRG\src\test.cpp > CMakeFiles\vsrg.dir\src\test.cpp.i
+
+CMakeFiles/vsrg.dir/src/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vsrg.dir/src/test.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shw42\source\VSRG\src\test.cpp -o CMakeFiles\vsrg.dir\src\test.cpp.s
 
 # Object files for target vsrg
 vsrg_OBJECTS = \
 "CMakeFiles/vsrg.dir/src/main.cpp.obj" \
-"CMakeFiles/vsrg.dir/src/draw.cpp.obj" \
-"CMakeFiles/vsrg.dir/src/playfield.cpp.obj" \
-"CMakeFiles/vsrg.dir/src/map_parser.cpp.obj"
+"CMakeFiles/vsrg.dir/src/game.cpp.obj" \
+"CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj" \
+"CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj" \
+"CMakeFiles/vsrg.dir/src/test.cpp.obj"
 
 # External object files for target vsrg
 vsrg_EXTERNAL_OBJECTS =
 
 Debug/vsrg.exe: CMakeFiles/vsrg.dir/src/main.cpp.obj
-Debug/vsrg.exe: CMakeFiles/vsrg.dir/src/draw.cpp.obj
-Debug/vsrg.exe: CMakeFiles/vsrg.dir/src/playfield.cpp.obj
-Debug/vsrg.exe: CMakeFiles/vsrg.dir/src/map_parser.cpp.obj
+Debug/vsrg.exe: CMakeFiles/vsrg.dir/src/game.cpp.obj
+Debug/vsrg.exe: CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj
+Debug/vsrg.exe: CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj
+Debug/vsrg.exe: CMakeFiles/vsrg.dir/src/test.cpp.obj
 Debug/vsrg.exe: CMakeFiles/vsrg.dir/build.make
+Debug/vsrg.exe: sprite_engine/libsprite_engine_lib.dll.a
+Debug/vsrg.exe: SDL_image/libSDL3_image.dll.a
 Debug/vsrg.exe: SDL/libSDL3.dll.a
 Debug/vsrg.exe: C:/Users/shw42/source/VSRG/SDL/src/dynapi/SDL_dynapi.sym
 Debug/vsrg.exe: CMakeFiles/vsrg.dir/linkLibs.rsp
 Debug/vsrg.exe: CMakeFiles/vsrg.dir/objects1.rsp
 Debug/vsrg.exe: CMakeFiles/vsrg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Debug\vsrg.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Debug\vsrg.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vsrg.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

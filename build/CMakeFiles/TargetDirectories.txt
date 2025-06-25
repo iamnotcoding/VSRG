@@ -6,3 +6,11 @@ C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/SDL3_test.dir
 C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/SDL_uclibc.dir
 C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/edit_cache.dir
 C:/Users/shw42/source/VSRG/build/SDL/CMakeFiles/rebuild_cache.dir
+C:/Users/shw42/source/VSRG/build/SDL_image/CMakeFiles/SDL3_image-shared.dir
+C:/Users/shw42/source/VSRG/build/SDL_image/CMakeFiles/edit_cache.dir
+C:/Users/shw42/source/VSRG/build/SDL_image/CMakeFiles/rebuild_cache.dir
+C:/Users/shw42/source/VSRG/build/json/CMakeFiles/edit_cache.dir
+C:/Users/shw42/source/VSRG/build/json/CMakeFiles/rebuild_cache.dir
+C:/Users/shw42/source/VSRG/build/sprite_engine/CMakeFiles/sprite_engine_lib.dir
+C:/Users/shw42/source/VSRG/build/sprite_engine/CMakeFiles/edit_cache.dir
+C:/Users/shw42/source/VSRG/build/sprite_engine/CMakeFiles/rebuild_cache.dir

@@ -7,21 +7,27 @@
 },
 {
   "directory": "C:/Users/shw42/source/VSRG/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\draw.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\draw.cpp",
-  "file": "C:/Users/shw42/source/VSRG/src/draw.cpp",
-  "output": "CMakeFiles/vsrg.dir/src/draw.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\game.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\game.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/game.cpp",
+  "output": "CMakeFiles/vsrg.dir/src/game.cpp.obj"
 },
 {
   "directory": "C:/Users/shw42/source/VSRG/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\playfield.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\playfield.cpp",
-  "file": "C:/Users/shw42/source/VSRG/src/playfield.cpp",
-  "output": "CMakeFiles/vsrg.dir/src/playfield.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\game_scripts\\map_parser.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\game_scripts\\map_parser.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/game_scripts/map_parser.cpp",
+  "output": "CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj"
 },
 {
   "directory": "C:/Users/shw42/source/VSRG/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\map_parser.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\map_parser.cpp",
-  "file": "C:/Users/shw42/source/VSRG/src/map_parser.cpp",
-  "output": "CMakeFiles/vsrg.dir/src/map_parser.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\game_scripts\\main_script.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\game_scripts\\main_script.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/game_scripts/main_script.cpp",
+  "output": "CMakeFiles/vsrg.dir/src/game_scripts/main_script.cpp.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\test.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\test.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/test.cpp",
+  "output": "CMakeFiles/vsrg.dir/src/test.cpp.obj"
 },
 {
   "directory": "C:/Users/shw42/source/VSRG/build/SDL",
@@ -1606,5 +1612,143 @@
   "command": "C:\\mingw64\\bin\\gcc.exe  @CMakeFiles/SDL3_test.dir/includes_C.rsp -g -gdwarf-4 -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -o CMakeFiles\\SDL3_test.dir\\src\\test\\SDL_test_memory.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL\\src\\test\\SDL_test_memory.c",
   "file": "C:/Users/shw42/source/VSRG/SDL/src/test/SDL_test_memory.c",
   "output": "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_WIC.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_WIC.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_WIC.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_WIC.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_avif.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_avif.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_avif.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_avif.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_bmp.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_bmp.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_bmp.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_bmp.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_gif.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_gif.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_gif.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_gif.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_jpg.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_jpg.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_jpg.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_jpg.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_jxl.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_jxl.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_jxl.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_jxl.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_lbm.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_lbm.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_lbm.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_lbm.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_pcx.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_pcx.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_pcx.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_pcx.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_png.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_png.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_png.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_png.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_pnm.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_pnm.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_pnm.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_pnm.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_qoi.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_qoi.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_qoi.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_qoi.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_stb.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_stb.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_stb.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_stb.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_svg.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_svg.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_svg.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_svg.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_tga.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_tga.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_tga.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_tga.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_tif.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_tif.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_tif.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_tif.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_webp.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_webp.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_webp.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_webp.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_xcf.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_xcf.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_xcf.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xcf.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_xpm.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_xpm.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_xpm.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xpm.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/SDL_image",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE @CMakeFiles/SDL3_image-shared.dir/includes_C.rsp -g -fvisibility=hidden -Wall -Wextra -o CMakeFiles\\SDL3_image-shared.dir\\src\\IMG_xv.c.obj -c C:\\Users\\shw42\\source\\VSRG\\SDL_image\\src\\IMG_xv.c",
+  "file": "C:/Users/shw42/source/VSRG/SDL_image/src/IMG_xv.c",
+  "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xv.c.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/sprite_engine",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\scene.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\sprite_engine\\src\\scene.cpp",
+  "file": "C:/Users/shw42/source/VSRG/sprite_engine/src/scene.cpp",
+  "output": "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/scene.cpp.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/sprite_engine",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\sprite.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\sprite_engine\\src\\sprite.cpp",
+  "file": "C:/Users/shw42/source/VSRG/sprite_engine/src/sprite.cpp",
+  "output": "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/sprite.cpp.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build/sprite_engine",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\bmp_sprite.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\sprite_engine\\src\\bmp_sprite.cpp",
+  "file": "C:/Users/shw42/source/VSRG/sprite_engine/src/bmp_sprite.cpp",
+  "output": "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/bmp_sprite.cpp.obj"
 }
 ]

@@ -13,24 +13,25 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -finput-charset
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 
-set(SRC_DIR ${CMAKE_SOURCE_DIR}/src)
+set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 set(SOURCES
     ${SRC_DIR}/main.cpp
-    ${SRC_DIR}/draw.cpp
-    ${SRC_DIR}/playfield.cpp
-    ${SRC_DIR}/map_parser.cpp
+    ${SRC_DIR}/game.cpp
+    ${SRC_DIR}/game_scripts/map_parser.cpp
+    ${SRC_DIR}/game_scripts/main_script.cpp
+    ${SRC_DIR}/test.cpp
 )
 
 set(HEADERS
-#    ${SRC_DIR}/draw.h
-#    ${SRC_DIR}/playfield.h
-    ${SRC_DIR}/map_parser.hpp
+    ${SRC_DIR}/game.hpp
+    ${SRC_DIR}/game_scripts/map_parser.hpp
+    ${SRC_DIR}/game_scripts/main_script.hpp
+    ${SRC_DIR}/test.hpp
 )
 
 add_executable(vsrg ${SOURCES} ${HEADERS})
 
-add_subdirectory(SDL)
 
 set_target_properties(vsrg PROPERTIES
     CXX_STANDARD 23
@@ -38,5 +39,22 @@ set_target_properties(vsrg PROPERTIES
     CXX_EXTENSIONS OFF
 )
 
+add_subdirectory(SDL)
+
 target_link_libraries(vsrg PRIVATE SDL3::SDL3)
 target_link_libraries(vsrg PRIVATE SDL3::Headers)
+
+add_subdirectory(SDL_image)
+
+target_link_libraries(vsrg PRIVATE SDL3_image::SDL3_image)
+target_include_directories(vsrg PRIVATE ${CMAKE_SOURCE_DIR}/SDL_image/include)
+
+add_subdirectory(json)
+target_link_libraries(vsrg PRIVATE nlohmann_json::nlohmann_json)
+
+add_subdirectory(sprite_engine)
+
+target_link_libraries(vsrg PRIVATE sprite_engine::lib)
+target_link_libraries(vsrg PRIVATE sprite_engine::header)
+
+#starget_include_directories(vsrg PRIVATE ${CMAKE_SOURCE_DIR}/src/game_scripts)
