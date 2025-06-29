@@ -108,3 +108,18 @@ void Sprite::resize_all(double width_multiplier, double height_multiplier)
         child->resize_self(width_multiplier, height_multiplier); // Resize all child sprites
     }
 }
+void Sprite::move_self_by(float x_offset, float y_offset)
+{
+    rect.x += x_offset;
+    rect.y += y_offset;
+}
+
+void Sprite::move_by_all(float x_offset, float y_offset)
+{
+    move_self_by(x_offset, y_offset);
+
+    for (auto child : children)
+    {
+        child->move_self_by(x_offset, y_offset);
+    }
+}

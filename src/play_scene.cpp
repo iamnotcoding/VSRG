@@ -1,20 +1,26 @@
-#include <iostream>
-#include <vector>
 #include <chrono>
+#include <iostream>
+#include <memory>
+#include <vector>
 
 #include <nlohmann/json.hpp>
 
+#include "SDL3/SDL_rect.h"
+#include "SDL3/SDL_render.h"
 #include "bmp_sprite.hpp"
 #include "json_util.hpp"
 #include "play_scene.hpp"
+#include "prefab.hpp"
 
 using namespace play_scene;
 
 using json = nlohmann::json;
 using namespace json_util;
 
-PlayScene::PlayScene(std::string map_file, std::string skin_name, int x, int y, int width, int height)
-	: scene::Scene(x, y, width, height), map_file(std::move(map_file)), skin_name(std::move(skin_name))
+PlayScene::PlayScene(SDL_Renderer *renderer, std::string map_file, std::string skin_name, int x, int y, int width,
+					 int height)
+	: scene::Scene(x, y, width, height), renderer(renderer), map_file(std::move(map_file)), note_prefab(0, 0),
+	  skin_name(std::move(skin_name))
 {
 	note_bmp_names = new std::string[key_count];
 
@@ -22,7 +28,8 @@ PlayScene::PlayScene(std::string map_file, std::string skin_name, int x, int y, 
 	load_key_specific_skin_config();
 	load_regular_note_bmp_names();
 
-    game_clock = std::chrono::high_resolution_clock::now();
+	game_clock = std::chrono::high_resolution_clock::now();
+	regular_note_height = rect.h / 10.0f;
 }
 
 PlayScene::~PlayScene()
@@ -61,7 +68,7 @@ void PlayScene::load_regular_note_bmp_names()
 
 	for (int i = 0; i < bmp_names_count; ++i)
 	{
-	    note_bmp_names[i] = note_bmp_names_json[i].get<std::string>(); 
+		note_bmp_names[i] = note_bmp_names_json[i].get<std::string>();
 	}
 }
 
@@ -98,16 +105,83 @@ void PlayScene::load_key_specific_skin_config()
 
 bmp_sprite::BmpSprite *PlayScene::get_new_regular_note_sprite(int lane_index)
 {
+	int lane_width = rect.w / key_count;
+
+	if (lane_index < 0 || lane_index >= key_count)
+	{
+		throw std::out_of_range("Lane index out of range: " + std::to_string(lane_index));
+	}
+
+	std::string bmp_name = "./skins/" + skin_name + "/play/" + note_bmp_names[lane_index];
+
+	bmp_sprite::BmpSprite *note_sprite =
+		new bmp_sprite::BmpSprite(renderer, bmp_name, rect.x + lane_index * lane_width, rect.y - (int)(regular_note_height));
+
+	note_sprite->resize_self(lane_width, (int)(regular_note_height));
+	return note_sprite;
 }
 
-// nanoseconds
-long long PlayScene::get_map_play_duration() 
+// milliseconds
+long double PlayScene::get_map_play_duration()
 {
 	auto now = std::chrono::high_resolution_clock::now();
-    return std::chrono::duration_cast<std::chrono::nanoseconds>(now - game_clock).count();
+	return std::chrono::duration_cast<std::chrono::nanoseconds>(now - game_clock).count() / 1000000.0L;
 }
 
 void PlayScene::update()
 {
+	bool is_all_notes_empty = true;
+	double delta_time = std::chrono::duration_cast<std::chrono::nanoseconds>(std::chrono::high_resolution_clock::now() -
+																			 prev_frame_time)
+							.count() /
+						1000000.0; // Convert to milliseconds
 
+	if (delta_time < 0)
+	{
+		std::cerr << "Negative delta time detected, resetting to 0." << std::endl;
+		delta_time = 0;
+	}
+
+	for (int i = 0; i < key_count; i++)
+	{
+		if (notes[i].empty())
+		{
+			continue; // Skip empty lanes
+		}
+
+		is_all_notes_empty = false;				  // At least one lane has notes
+		map_parser::Note note = notes[i].front(); // Get the first note in the lane
+		// std::cout << "note start time: " << note.start_time << std::endl;
+		// std::cout << "map play duration: " << get_map_play_duration() << std::endl;
+
+		/* draw regular notes a bit earlier than they're start time
+		so that they can partially be seen on the screen
+		otherwise, they will look like they appear out of nowhere */
+		if (note.start_time > get_map_play_duration() + 10 * regular_note_height / 10)
+		{
+			continue;
+		}
+
+		std::cout << "new note at lane " << note.lane_index << " with start time " << note.start_time << std::endl;
+		bmp_sprite::BmpSprite *note_sprite = get_new_regular_note_sprite(note.lane_index);
+
+		std::cout << "new note sprite addr" << note_sprite << std::endl;
+
+		add_sprite(note_sprite);
+		note_prefab.add_child(note_sprite);
+
+		active_note_sprites.push_back(note_sprite);
+
+		notes[i].erase(notes[i].begin());
+	}
+
+	note_prefab.move_by_all(0, scroll_speed * delta_time / 10);
+
+	if (is_all_notes_empty)
+	{
+		std::cout << "All notes are empty, no sprites to draw." << std::endl;
+		return; // No notes to draw
+	}
+
+	prev_frame_time = std::chrono::high_resolution_clock::now();
 }

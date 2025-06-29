@@ -46,6 +46,9 @@ namespace sprite
         void scale_self(double width_multiplier, double height_multiplier);
 
         void resize_all(double width_multiplier, double height_multiplier);
+
+        void move_self_by(float x_offset, float y_offset);
+        void move_by_all(float x_offset, float y_offset);
       protected:
         bool is_visible_flag = true;
         std::vector<Sprite *> children; // List of child sprites

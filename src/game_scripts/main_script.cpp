@@ -39,7 +39,7 @@ namespace main_script
 			throw std::runtime_error("Failed to create renderer: " + string(SDL_GetError()));
 		}
 
-		play_scene = make_unique<play_scene::PlayScene>("ex.bms", "simple", 0, 0, 400, 400);
+		play_scene = make_unique<play_scene::PlayScene>(renderer, "ex.bms", "simple", 0, 0, 800, 800);
 	}
 
 	// A function that's called every frame

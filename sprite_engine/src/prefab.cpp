@@ -9,7 +9,12 @@ PreFab::PreFab(int x, int y):
 
 }
 
+// nop since draw_all will call this
 void PreFab::draw_self()
 {
-    throw std::runtime_error("Cannot call draw_self on a prefab");
+}
+
+// nop since resize_all will call this
+void PreFab::resize_self([[maybe_unused]]float width, [[maybe_unused]]float height)
+{
 }

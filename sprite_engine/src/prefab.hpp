@@ -8,7 +8,8 @@ namespace prefab
 	{
 	  public:
 		PreFab(int x, int y);
-		~PreFab() override = default; 
+		~PreFab() override = default;
 		void draw_self() override;
+		void resize_self(float width, float height) override;
 	};
 } // namespace prefab

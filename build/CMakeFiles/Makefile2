@@ -178,9 +178,9 @@ sprite_engine/clean: sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean
 # Target rules for target CMakeFiles/vsrg.dir
 
 # All Build rule for target.
-CMakeFiles/vsrg.dir/all: sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
 CMakeFiles/vsrg.dir/all: SDL/CMakeFiles/SDL3-shared.dir/all
 CMakeFiles/vsrg.dir/all: SDL_image/CMakeFiles/SDL3_image-shared.dir/all
+CMakeFiles/vsrg.dir/all: sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=98,99,100 "Built target vsrg"
