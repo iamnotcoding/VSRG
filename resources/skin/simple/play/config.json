@@ -1,21 +1,22 @@
 {
   "name": "Simple",
 
-  "presets": {
-    "key": "7+1",
-    "judge_line_height" : 0.05,
-    "notes": [
-      "red.png",
-      "blue.png",
-      "white.png",
-      "blue.png",
-      "yellow.png",
-      "blue.png",
-      "white.png",
-      "blue.png",
-      "yellow.png"
-    ],
-    "key_bombs":[
+  "presets": [
+    {
+      "key": 8,
+      "judge_line_height": 0.05,
+      "regular_notes": [
+        "red.png",
+        "blue.png",
+        "white.png",
+        "blue.png",
+        "yellow.png",
+        "blue.png",
+        "white.png",
+        "blue.png",
+        "yellow.png"
+      ],
+      "key_bombs": [
         "bomb.png",
         "bomb.png",
         "bomb.png",
@@ -24,6 +25,7 @@
         "bomb.png",
         "bomb.png",
         "bomb.png"
-    ]
-  }
+      ]
+    }
+  ]
 }

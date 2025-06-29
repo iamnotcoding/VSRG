@@ -15,11 +15,13 @@ namespace scene
 		SDL_Rect rect;
 		
 		Scene(int x, int y, int width, int height) : rect{x, y, width, height} {}
-		
+		virtual ~Scene() = default;
+
 		void add_sprite(sprite::Sprite *sprite);
 		bool remove_sprite(sprite::Sprite *sprite);
 		
 		void draw();
+		virtual void update() = 0;
 		void resize(double width_multiplier, double height_multiplier);
 		void resize(int width, int height);
 		

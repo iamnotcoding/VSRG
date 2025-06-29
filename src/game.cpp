@@ -9,40 +9,18 @@
 #include "game_scripts/main_script.hpp"
 
 #include "game.hpp"
+#include "json_util.hpp"
 
 extern bool is_test_mode_flag;
 
 using json = nlohmann::json;
 
 using namespace game;
-
-template <typename T> static bool set_if_exists(T &dest, const json &data, const std::string &key);
-template <typename T> static void set_mandantory(T &dest, const json &data, const std::string &key);
+using namespace json_util;
 
 static GameConfig get_game_config(std::string config_file);
 
 static void poll_events();
-
-template <typename T> static bool set_if_exists(T &dest, const json &data, const std::string &key)
-{
-	if (!data.contains(key))
-	{
-		return false; // Key does not exist, do not set the value
-	}
-
-	dest = data[key].get<T>();
-	return true;
-}
-
-template <typename T> static void set_mandantory(T &dest, const json &data, const std::string &key)
-{
-	if (!data.contains(key) || data[key].is_null())
-	{
-		throw std::runtime_error("'" + key + "' must be specified");
-	}
-	
-	dest = data[key].get<T>();
-}
 
 static GameConfig get_game_config(std::string config_file)
 {
@@ -57,9 +35,9 @@ static GameConfig get_game_config(std::string config_file)
 
 	json data = json::parse(f);
 
-	set_mandantory(config.title, data, "title");
-	set_mandantory(config.width, data, "width");
-	set_mandantory(config.height, data, "height");
+	set_mandatory(config.title, data, "title");
+	set_mandatory(config.width, data, "width");
+	set_mandatory(config.height, data, "height");
 
 	set_if_exists(config.is_resizable_flag, data, "is_resizable");
 	set_if_exists(config.is_fullscreen_flag, data, "is_fullscreen");
@@ -67,7 +45,7 @@ static GameConfig get_game_config(std::string config_file)
 
 	if (config.is_fps_capped_flag)
 	{
-		set_mandantory(config.fps, data, "fps");
+		set_mandatory(config.fps, data, "fps");
 	}
 
 	return config;

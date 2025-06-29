@@ -296,6 +296,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/play_scene.obj: src/play_scene.cpp.obj
+.PHONY : src/play_scene.obj
+
+# target to build an object file
+src/play_scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/play_scene.cpp.obj
+.PHONY : src/play_scene.cpp.obj
+
+src/play_scene.i: src/play_scene.cpp.i
+.PHONY : src/play_scene.i
+
+# target to preprocess a source file
+src/play_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/play_scene.cpp.i
+.PHONY : src/play_scene.cpp.i
+
+src/play_scene.s: src/play_scene.cpp.s
+.PHONY : src/play_scene.s
+
+# target to generate assembly for a file
+src/play_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/play_scene.cpp.s
+.PHONY : src/play_scene.cpp.s
+
 src/test.obj: src/test.cpp.obj
 .PHONY : src/test.obj
 
@@ -347,6 +371,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/play_scene.obj
+	@echo ... src/play_scene.i
+	@echo ... src/play_scene.s
 	@echo ... src/test.obj
 	@echo ... src/test.i
 	@echo ... src/test.s

@@ -9,7 +9,8 @@
 using namespace scene;
 using namespace sprite;
 
-// All sprites including children should be added
+// All sprites including children should be added.
+// A scene does not own the sprites
 void Scene::add_sprite(Sprite *sprite)
 {
     if (sprite == nullptr)
@@ -20,6 +21,7 @@ void Scene::add_sprite(Sprite *sprite)
     sprites.push_back(sprite);
 }
 
+// This does not 'delete' the sprite
 bool Scene::remove_sprite(Sprite *sprite)
 {
     if (sprite == nullptr)

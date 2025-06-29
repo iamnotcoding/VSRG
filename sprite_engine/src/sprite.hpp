@@ -15,7 +15,7 @@ namespace sprite
         SDL_FRect rect;           // Changed from SDL_Rect to SDL_FRect
 
         Sprite(SDL_Renderer *renderer, float x, float y, float width, float height);  // Changed to float parameters
-        ~Sprite();
+        virtual ~Sprite();
 
         bool is_visible() const
         {

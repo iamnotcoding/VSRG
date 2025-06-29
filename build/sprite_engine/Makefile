@@ -160,6 +160,30 @@ src/bmp_sprite.cpp.s:
 	cd /d C:\Users\shw42\source\VSRG\build && $(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/bmp_sprite.cpp.s
 .PHONY : src/bmp_sprite.cpp.s
 
+src/prefab.obj: src/prefab.cpp.obj
+.PHONY : src/prefab.obj
+
+# target to build an object file
+src/prefab.cpp.obj:
+	cd /d C:\Users\shw42\source\VSRG\build && $(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.obj
+.PHONY : src/prefab.cpp.obj
+
+src/prefab.i: src/prefab.cpp.i
+.PHONY : src/prefab.i
+
+# target to preprocess a source file
+src/prefab.cpp.i:
+	cd /d C:\Users\shw42\source\VSRG\build && $(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.i
+.PHONY : src/prefab.cpp.i
+
+src/prefab.s: src/prefab.cpp.s
+.PHONY : src/prefab.s
+
+# target to generate assembly for a file
+src/prefab.cpp.s:
+	cd /d C:\Users\shw42\source\VSRG\build && $(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.s
+.PHONY : src/prefab.cpp.s
+
 src/scene.obj: src/scene.cpp.obj
 .PHONY : src/scene.obj
 
@@ -221,6 +245,9 @@ help:
 	@echo ... src/bmp_sprite.obj
 	@echo ... src/bmp_sprite.i
 	@echo ... src/bmp_sprite.s
+	@echo ... src/prefab.obj
+	@echo ... src/prefab.i
+	@echo ... src/prefab.s
 	@echo ... src/scene.obj
 	@echo ... src/scene.i
 	@echo ... src/scene.s

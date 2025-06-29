@@ -21,6 +21,7 @@ set(SOURCES
     ${SRC_DIR}/game_scripts/map_parser.cpp
     ${SRC_DIR}/game_scripts/main_script.cpp
     ${SRC_DIR}/test.cpp
+    ${SRC_DIR}/play_scene.cpp
 )
 
 set(HEADERS
@@ -28,6 +29,8 @@ set(HEADERS
     ${SRC_DIR}/game_scripts/map_parser.hpp
     ${SRC_DIR}/game_scripts/main_script.hpp
     ${SRC_DIR}/test.hpp
+    ${SRC_DIR}/json_util.hpp
+    ${SRC_DIR}/play_scene.hpp
 )
 
 add_executable(vsrg ${SOURCES} ${HEADERS})
@@ -50,7 +53,7 @@ target_link_libraries(vsrg PRIVATE SDL3_image::SDL3_image)
 target_include_directories(vsrg PRIVATE ${CMAKE_SOURCE_DIR}/SDL_image/include)
 
 add_subdirectory(json)
-target_link_libraries(vsrg PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(vsrg PUBLIC nlohmann_json::nlohmann_json)
 
 add_subdirectory(sprite_engine)
 

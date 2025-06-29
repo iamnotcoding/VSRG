@@ -494,7 +494,7 @@ static Note_type get_note_type(int channel)
 // TODO : Add more key modes support other than 7K
 static int get_lane_index(int channel)
 {
-	cout << "get_lane_index called with channel: " << channel << endl;
+	//cout << "get_lane_index called with channel: " << channel << endl;
 	if (channel >= P1_REGULAR_MIN && channel <= P1_REGULAR_MAX)
 	{
 		channel -= 10;

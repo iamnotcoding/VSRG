@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "../Debug/libsprite_engine_lib.pdb"
   "CMakeFiles/sprite_engine_lib.dir/src/bmp_sprite.cpp.obj"
   "CMakeFiles/sprite_engine_lib.dir/src/bmp_sprite.cpp.obj.d"
+  "CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.obj"
+  "CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.obj.d"
   "CMakeFiles/sprite_engine_lib.dir/src/scene.cpp.obj"
   "CMakeFiles/sprite_engine_lib.dir/src/scene.cpp.obj.d"
   "CMakeFiles/sprite_engine_lib.dir/src/sprite.cpp.obj"

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj.d"
   "CMakeFiles/vsrg.dir/src/main.cpp.obj"
   "CMakeFiles/vsrg.dir/src/main.cpp.obj.d"
+  "CMakeFiles/vsrg.dir/src/play_scene.cpp.obj"
+  "CMakeFiles/vsrg.dir/src/play_scene.cpp.obj.d"
   "CMakeFiles/vsrg.dir/src/test.cpp.obj"
   "CMakeFiles/vsrg.dir/src/test.cpp.obj.d"
   "Debug/vsrg.exe"

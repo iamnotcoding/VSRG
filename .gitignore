@@ -34,3 +34,6 @@
 #bms files
 *.bms
 *.bml
+
+build/
+.cache/

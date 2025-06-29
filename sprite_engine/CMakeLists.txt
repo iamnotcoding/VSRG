@@ -12,12 +12,14 @@ set(SRC_PATH ${CMAKE_CURRENT_SOURCE_DIR}/src)
 set(SOURCES
     ${SRC_PATH}/scene.cpp
     ${SRC_PATH}/sprite.cpp
-    ${SRC_PATH}/bmp_sprite.cpp)
+    ${SRC_PATH}/bmp_sprite.cpp
+    ${SRC_PATH}/prefab.cpp)
 
 set(HEADERS
     ${SRC_PATH}/scene.hpp
     ${SRC_PATH}/sprite.hpp
-    ${SRC_PATH}/bmp_sprite.hpp)
+    ${SRC_PATH}/bmp_sprite.hpp
+    ${SRC_PATH}/prefab.hpp)
 
 add_library(sprite_engine_lib SHARED ${SOURCES})
 add_library(sprite_engine::lib ALIAS sprite_engine_lib)

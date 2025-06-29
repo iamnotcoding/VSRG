@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/shw42/source/VSRG/sprite_engine/src/bmp_sprite.cpp" "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/bmp_sprite.cpp.obj" "gcc" "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/bmp_sprite.cpp.obj.d"
+  "C:/Users/shw42/source/VSRG/sprite_engine/src/prefab.cpp" "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.obj" "gcc" "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.obj.d"
   "C:/Users/shw42/source/VSRG/sprite_engine/src/scene.cpp" "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/scene.cpp.obj" "gcc" "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/scene.cpp.obj.d"
   "C:/Users/shw42/source/VSRG/sprite_engine/src/sprite.cpp" "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/sprite.cpp.obj" "gcc" "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/sprite.cpp.obj.d"
   )
