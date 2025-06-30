@@ -5,12 +5,11 @@
 
 #include <nlohmann/json.hpp>
 
-#include "SDL3/SDL_rect.h"
-#include "SDL3/SDL_render.h"
-#include "bmp_sprite.hpp"
+#include <SDL3/SDL_render.h>
+#include <bmp_sprite.hpp>
+#include <prefab.hpp>
 #include "json_util.hpp"
 #include "play_scene.hpp"
-#include "prefab.hpp"
 
 using namespace play_scene;
 

@@ -2,16 +2,16 @@
 #include <stdexcept>
 #include <memory>
 
-#include "SDL3/SDL_render.h"
-#include "bmp_sprite.hpp"
-#include "main_script.hpp"
-#include "../game.hpp"
-
+#include <SDL3/SDL_render.h>
 #include <SDL3/SDL_events.h>
 #include <SDL3/SDL_render.h>
 
+#include <bmp_sprite.hpp>
 #include <scene.hpp>
-#include "../play_scene.hpp"
+
+#include "main_script.hpp"
+#include "play_scene.hpp"
+#include "../game.hpp"
 
 using namespace std;
 

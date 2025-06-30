@@ -107,7 +107,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/shw42/source/VSRG/json/cmake/config.cmake.in"
   "C:/Users/shw42/source/VSRG/json/cmake/nlohmann_jsonConfigVersion.cmake.in"
   "C:/Users/shw42/source/VSRG/json/cmake/pkg-config.pc.in"
-  "C:/Users/shw42/source/VSRG/sprite_engine/CMakeLists.txt"
+  "C:/Users/shw42/source/VSRG/src/sprite_engine/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -133,7 +133,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "json/nlohmann_jsonConfigVersion.cmake"
   "json/nlohmann_jsonConfig.cmake"
   "json/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "sprite_engine/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/sprite_engine/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -143,5 +143,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "SDL/CMakeFiles/SDL3_test.dir/DependInfo.cmake"
   "SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake"
   "SDL_image/CMakeFiles/SDL3_image-shared.dir/DependInfo.cmake"
-  "sprite_engine/CMakeFiles/sprite_engine_lib.dir/DependInfo.cmake"
+  "src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/DependInfo.cmake"
   )

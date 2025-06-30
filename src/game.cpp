@@ -9,7 +9,7 @@
 #include "game_scripts/main_script.hpp"
 
 #include "game.hpp"
-#include "json_util.hpp"
+#include "game_scripts/json_util.hpp"
 
 extern bool is_test_mode_flag;
 

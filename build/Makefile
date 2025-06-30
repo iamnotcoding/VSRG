@@ -197,7 +197,7 @@ sprite_engine_lib: cmake_check_build_system
 
 # fast build rule for target.
 sprite_engine_lib/fast:
-	$(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/build
+	$(MAKE) $(MAKESILENT) -f src\sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/build
 .PHONY : sprite_engine_lib/fast
 
 src/game.obj: src/game.cpp.obj
@@ -272,6 +272,30 @@ src/game_scripts/map_parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.s
 .PHONY : src/game_scripts/map_parser.cpp.s
 
+src/game_scripts/play_scene.obj: src/game_scripts/play_scene.cpp.obj
+.PHONY : src/game_scripts/play_scene.obj
+
+# target to build an object file
+src/game_scripts/play_scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/game_scripts/play_scene.cpp.obj
+.PHONY : src/game_scripts/play_scene.cpp.obj
+
+src/game_scripts/play_scene.i: src/game_scripts/play_scene.cpp.i
+.PHONY : src/game_scripts/play_scene.i
+
+# target to preprocess a source file
+src/game_scripts/play_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/game_scripts/play_scene.cpp.i
+.PHONY : src/game_scripts/play_scene.cpp.i
+
+src/game_scripts/play_scene.s: src/game_scripts/play_scene.cpp.s
+.PHONY : src/game_scripts/play_scene.s
+
+# target to generate assembly for a file
+src/game_scripts/play_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/game_scripts/play_scene.cpp.s
+.PHONY : src/game_scripts/play_scene.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -295,30 +319,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/play_scene.obj: src/play_scene.cpp.obj
-.PHONY : src/play_scene.obj
-
-# target to build an object file
-src/play_scene.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/play_scene.cpp.obj
-.PHONY : src/play_scene.cpp.obj
-
-src/play_scene.i: src/play_scene.cpp.i
-.PHONY : src/play_scene.i
-
-# target to preprocess a source file
-src/play_scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/play_scene.cpp.i
-.PHONY : src/play_scene.cpp.i
-
-src/play_scene.s: src/play_scene.cpp.s
-.PHONY : src/play_scene.s
-
-# target to generate assembly for a file
-src/play_scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/src/play_scene.cpp.s
-.PHONY : src/play_scene.cpp.s
 
 src/test.obj: src/test.cpp.obj
 .PHONY : src/test.obj
@@ -368,12 +368,12 @@ help:
 	@echo ... src/game_scripts/map_parser.obj
 	@echo ... src/game_scripts/map_parser.i
 	@echo ... src/game_scripts/map_parser.s
+	@echo ... src/game_scripts/play_scene.obj
+	@echo ... src/game_scripts/play_scene.i
+	@echo ... src/game_scripts/play_scene.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/play_scene.obj
-	@echo ... src/play_scene.i
-	@echo ... src/play_scene.s
 	@echo ... src/test.obj
 	@echo ... src/test.i
 	@echo ... src/test.s

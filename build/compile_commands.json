@@ -13,6 +13,12 @@
 },
 {
   "directory": "C:/Users/shw42/source/VSRG/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\test.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\test.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/test.cpp",
+  "output": "CMakeFiles/vsrg.dir/src/test.cpp.obj"
+},
+{
+  "directory": "C:/Users/shw42/source/VSRG/build",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\game_scripts\\map_parser.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\game_scripts\\map_parser.cpp",
   "file": "C:/Users/shw42/source/VSRG/src/game_scripts/map_parser.cpp",
   "output": "CMakeFiles/vsrg.dir/src/game_scripts/map_parser.cpp.obj"
@@ -25,15 +31,9 @@
 },
 {
   "directory": "C:/Users/shw42/source/VSRG/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\test.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\test.cpp",
-  "file": "C:/Users/shw42/source/VSRG/src/test.cpp",
-  "output": "CMakeFiles/vsrg.dir/src/test.cpp.obj"
-},
-{
-  "directory": "C:/Users/shw42/source/VSRG/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\play_scene.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\play_scene.cpp",
-  "file": "C:/Users/shw42/source/VSRG/src/play_scene.cpp",
-  "output": "CMakeFiles/vsrg.dir/src/play_scene.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/vsrg.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\vsrg.dir\\src\\game_scripts\\play_scene.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\game_scripts\\play_scene.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/game_scripts/play_scene.cpp",
+  "output": "CMakeFiles/vsrg.dir/src/game_scripts/play_scene.cpp.obj"
 },
 {
   "directory": "C:/Users/shw42/source/VSRG/build/SDL",
@@ -1740,27 +1740,27 @@
   "output": "SDL_image/CMakeFiles/SDL3_image-shared.dir/src/IMG_xv.c.obj"
 },
 {
-  "directory": "C:/Users/shw42/source/VSRG/build/sprite_engine",
-  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\scene.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\sprite_engine\\src\\scene.cpp",
-  "file": "C:/Users/shw42/source/VSRG/sprite_engine/src/scene.cpp",
-  "output": "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/scene.cpp.obj"
+  "directory": "C:/Users/shw42/source/VSRG/build/src/sprite_engine",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\scene.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\sprite_engine\\src\\scene.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/sprite_engine/src/scene.cpp",
+  "output": "src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/scene.cpp.obj"
 },
 {
-  "directory": "C:/Users/shw42/source/VSRG/build/sprite_engine",
-  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\sprite.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\sprite_engine\\src\\sprite.cpp",
-  "file": "C:/Users/shw42/source/VSRG/sprite_engine/src/sprite.cpp",
-  "output": "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/sprite.cpp.obj"
+  "directory": "C:/Users/shw42/source/VSRG/build/src/sprite_engine",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\sprite.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\sprite_engine\\src\\sprite.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/sprite_engine/src/sprite.cpp",
+  "output": "src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/sprite.cpp.obj"
 },
 {
-  "directory": "C:/Users/shw42/source/VSRG/build/sprite_engine",
-  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\bmp_sprite.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\sprite_engine\\src\\bmp_sprite.cpp",
-  "file": "C:/Users/shw42/source/VSRG/sprite_engine/src/bmp_sprite.cpp",
-  "output": "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/bmp_sprite.cpp.obj"
+  "directory": "C:/Users/shw42/source/VSRG/build/src/sprite_engine",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\bmp_sprite.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\sprite_engine\\src\\bmp_sprite.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/sprite_engine/src/bmp_sprite.cpp",
+  "output": "src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/bmp_sprite.cpp.obj"
 },
 {
-  "directory": "C:/Users/shw42/source/VSRG/build/sprite_engine",
-  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\prefab.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\sprite_engine\\src\\prefab.cpp",
-  "file": "C:/Users/shw42/source/VSRG/sprite_engine/src/prefab.cpp",
-  "output": "sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.obj"
+  "directory": "C:/Users/shw42/source/VSRG/build/src/sprite_engine",
+  "command": "C:\\mingw64\\bin\\g++.exe -Dsprite_engine_lib_EXPORTS @CMakeFiles/sprite_engine_lib.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -finput-charset=UTF-8 -g -std=c++23 -o CMakeFiles\\sprite_engine_lib.dir\\src\\prefab.cpp.obj -c C:\\Users\\shw42\\source\\VSRG\\src\\sprite_engine\\src\\prefab.cpp",
+  "file": "C:/Users/shw42/source/VSRG/src/sprite_engine/src/prefab.cpp",
+  "output": "src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/src/prefab.cpp.obj"
 }
 ]

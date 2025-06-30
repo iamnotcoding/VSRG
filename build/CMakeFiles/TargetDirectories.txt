@@ -11,6 +11,6 @@ C:/Users/shw42/source/VSRG/build/SDL_image/CMakeFiles/edit_cache.dir
 C:/Users/shw42/source/VSRG/build/SDL_image/CMakeFiles/rebuild_cache.dir
 C:/Users/shw42/source/VSRG/build/json/CMakeFiles/edit_cache.dir
 C:/Users/shw42/source/VSRG/build/json/CMakeFiles/rebuild_cache.dir
-C:/Users/shw42/source/VSRG/build/sprite_engine/CMakeFiles/sprite_engine_lib.dir
-C:/Users/shw42/source/VSRG/build/sprite_engine/CMakeFiles/edit_cache.dir
-C:/Users/shw42/source/VSRG/build/sprite_engine/CMakeFiles/rebuild_cache.dir
+C:/Users/shw42/source/VSRG/build/src/sprite_engine/CMakeFiles/sprite_engine_lib.dir
+C:/Users/shw42/source/VSRG/build/src/sprite_engine/CMakeFiles/edit_cache.dir
+C:/Users/shw42/source/VSRG/build/src/sprite_engine/CMakeFiles/rebuild_cache.dir

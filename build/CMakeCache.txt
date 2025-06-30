@@ -794,13 +794,13 @@ nlohmann_json_IS_TOP_LEVEL:STATIC=OFF
 nlohmann_json_SOURCE_DIR:STATIC=C:/Users/shw42/source/VSRG/json
 
 //Value Computed by CMake
-sprite_engine_BINARY_DIR:STATIC=C:/Users/shw42/source/VSRG/build/sprite_engine
+sprite_engine_BINARY_DIR:STATIC=C:/Users/shw42/source/VSRG/build/src/sprite_engine
 
 //Value Computed by CMake
 sprite_engine_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-sprite_engine_SOURCE_DIR:STATIC=C:/Users/shw42/source/VSRG/sprite_engine
+sprite_engine_SOURCE_DIR:STATIC=C:/Users/shw42/source/VSRG/src/sprite_engine
 
 //Extra compile options of webp
 webp_COMPILE_OPTIONS:STRING=

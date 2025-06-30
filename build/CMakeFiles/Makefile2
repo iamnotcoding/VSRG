@@ -66,7 +66,7 @@ all: CMakeFiles/vsrg.dir/all
 all: SDL/all
 all: SDL_image/all
 all: json/all
-all: sprite_engine/all
+all: src/sprite_engine/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -74,14 +74,14 @@ codegen: CMakeFiles/vsrg.dir/codegen
 codegen: SDL/codegen
 codegen: SDL_image/codegen
 codegen: json/codegen
-codegen: sprite_engine/codegen
+codegen: src/sprite_engine/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: SDL/preinstall
 preinstall: SDL_image/preinstall
 preinstall: json/preinstall
-preinstall: sprite_engine/preinstall
+preinstall: src/sprite_engine/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -89,7 +89,7 @@ clean: CMakeFiles/vsrg.dir/clean
 clean: SDL/clean
 clean: SDL_image/clean
 clean: json/clean
-clean: sprite_engine/clean
+clean: src/sprite_engine/clean
 .PHONY : clean
 
 #=============================================================================
@@ -156,31 +156,31 @@ json/clean:
 .PHONY : json/clean
 
 #=============================================================================
-# Directory level rules for directory sprite_engine
+# Directory level rules for directory src/sprite_engine
 
 # Recursive "all" directory target.
-sprite_engine/all: sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
-.PHONY : sprite_engine/all
+src/sprite_engine/all: src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
+.PHONY : src/sprite_engine/all
 
 # Recursive "codegen" directory target.
-sprite_engine/codegen: sprite_engine/CMakeFiles/sprite_engine_lib.dir/codegen
-.PHONY : sprite_engine/codegen
+src/sprite_engine/codegen: src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/codegen
+.PHONY : src/sprite_engine/codegen
 
 # Recursive "preinstall" directory target.
-sprite_engine/preinstall:
-.PHONY : sprite_engine/preinstall
+src/sprite_engine/preinstall:
+.PHONY : src/sprite_engine/preinstall
 
 # Recursive "clean" directory target.
-sprite_engine/clean: sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean
-.PHONY : sprite_engine/clean
+src/sprite_engine/clean: src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean
+.PHONY : src/sprite_engine/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/vsrg.dir
 
 # All Build rule for target.
 CMakeFiles/vsrg.dir/all: SDL/CMakeFiles/SDL3-shared.dir/all
+CMakeFiles/vsrg.dir/all: src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
 CMakeFiles/vsrg.dir/all: SDL_image/CMakeFiles/SDL3_image-shared.dir/all
-CMakeFiles/vsrg.dir/all: sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vsrg.dir\build.make CMakeFiles/vsrg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=98,99,100 "Built target vsrg"
@@ -337,37 +337,37 @@ SDL_image/CMakeFiles/SDL3_image-shared.dir/clean:
 .PHONY : SDL_image/CMakeFiles/SDL3_image-shared.dir/clean
 
 #=============================================================================
-# Target rules for target sprite_engine/CMakeFiles/sprite_engine_lib.dir
+# Target rules for target src/sprite_engine/CMakeFiles/sprite_engine_lib.dir
 
 # All Build rule for target.
-sprite_engine/CMakeFiles/sprite_engine_lib.dir/all: SDL/CMakeFiles/SDL3-shared.dir/all
-sprite_engine/CMakeFiles/sprite_engine_lib.dir/all: SDL_image/CMakeFiles/SDL3_image-shared.dir/all
-	$(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/depend
-	$(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/build
+src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/all: SDL/CMakeFiles/SDL3-shared.dir/all
+src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/all: SDL_image/CMakeFiles/SDL3_image-shared.dir/all
+	$(MAKE) $(MAKESILENT) -f src\sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=97 "Built target sprite_engine_lib"
-.PHONY : sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
+.PHONY : src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
 
 # Build rule for subdir invocation for target.
-sprite_engine/CMakeFiles/sprite_engine_lib.dir/rule: cmake_check_build_system
+src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\shw42\source\VSRG\build\CMakeFiles 93
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\shw42\source\VSRG\build\CMakeFiles 0
-.PHONY : sprite_engine/CMakeFiles/sprite_engine_lib.dir/rule
+.PHONY : src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/rule
 
 # Convenience name for target.
-sprite_engine_lib: sprite_engine/CMakeFiles/sprite_engine_lib.dir/rule
+sprite_engine_lib: src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/rule
 .PHONY : sprite_engine_lib
 
 # codegen rule for target.
-sprite_engine/CMakeFiles/sprite_engine_lib.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/codegen
+src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src\sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\shw42\source\VSRG\build\CMakeFiles --progress-num=97 "Finished codegen for target sprite_engine_lib"
-.PHONY : sprite_engine/CMakeFiles/sprite_engine_lib.dir/codegen
+.PHONY : src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/codegen
 
 # clean rule for target.
-sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean
-.PHONY : sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean
+src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\sprite_engine\CMakeFiles\sprite_engine_lib.dir\build.make src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean
+.PHONY : src/sprite_engine/CMakeFiles/sprite_engine_lib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

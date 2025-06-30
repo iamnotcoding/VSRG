@@ -24,7 +24,7 @@ set(HEADERS
 add_library(sprite_engine_lib SHARED ${SOURCES})
 add_library(sprite_engine::lib ALIAS sprite_engine_lib)
 
-target_include_directories(sprite_engine_lib PRIVATE ${CMAKE_SOURCE_DIR}/src/game_scripts)
+target_include_directories(sprite_engine_lib PRIVATE ${CMAKE_SOURCE_DIR}/src)
 
 add_library(sprite_engine_header INTERFACE)
 target_include_directories(sprite_engine_header INTERFACE ${SRC_PATH})

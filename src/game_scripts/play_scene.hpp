@@ -6,7 +6,7 @@
 
 
 #include "SDL3/SDL_render.h"
-#include "game_scripts/map_parser.hpp"
+#include "map_parser.hpp"
 #include <bmp_sprite.hpp>
 #include <nlohmann/json.hpp>
 #include <prefab.hpp>
